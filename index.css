@@ -1,13 +1,19 @@
-#main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#github-container {
-  display: flex;
-}
-
 ul {
   list-style: none;
+}
+
+card {
+  background-color: salmon;
+  border: black solid 3px;
+  margin: 5px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.style {
+  height: 50px;
+  width: 50px;
 }
